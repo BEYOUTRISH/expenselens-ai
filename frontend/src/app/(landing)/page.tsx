@@ -90,8 +90,8 @@ export default function LandingPage() {
             <Sparkles size={14} /> AI-Powered Expense Intelligence
           </div>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-            Turn Expense Data Into
-            <span className="bg-gradient-to-r from-indigo-400 via-cyan-400 to-emerald-400 text-transparent bg-clip-text"> Actionable Insights</span>
+            Turn Expense Data Into <br />
+            <span className="bg-gradient-to-r from-indigo-400 via-cyan-400 to-emerald-400 text-transparent bg-clip-text">Actionable Insights</span>
           </h1>
           <p className="text-lg text-slate-400 max-w-2xl mx-auto mb-10">
             Upload raw expense files and let AI clean, standardize, reconcile, and analyze them.
