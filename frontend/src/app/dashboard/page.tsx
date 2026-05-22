@@ -221,7 +221,7 @@ export default function ExecutiveDashboard() {
           <BarChart data={departments}>
             <CartesianGrid strokeDasharray="3 3" stroke="rgba(148,163,184,0.1)" />
             <XAxis dataKey="department" tick={{ fontSize: 12 }} stroke="rgba(148,163,184,0.5)" />
-            <YAxis tick={{ fontSize: 12 }} stroke="rgba(148,163,184,0.5)" />
+            <YAxis tickFormatter={(value) => formatCompactCurrency(value)} tick={{ fontSize: 12 }} stroke="rgba(148,163,184,0.5)" />
             <Tooltip
               contentStyle={{ background: "rgba(15,23,42,0.9)", border: "1px solid rgba(51,65,85,0.5)", borderRadius: "12px" }}
             />
