@@ -17,8 +17,8 @@ print("=== Imports OK ===")
 
 print("\n=== Schema Detector ===")
 headers = ["txn_id", "submission_date", "txn_date", "amount_raw", "currency_raw", "vendor_raw", "description", "department", "cost_center", "submitted_by", "receipt_attached", "notes"]
-schema = detect_schema(headers)
-for k, v in schema.items():
+schema_mapping, _ = detect_schema(headers)
+for k, v in schema_mapping.items():
     print(f"  {k:20s} -> col {v}")
 
 print("\n=== Date Parser ===")
