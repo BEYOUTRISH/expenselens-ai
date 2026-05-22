@@ -21,13 +21,9 @@ services:
         sync: false
       - key: UPLOAD_DIR
         value: /app/uploads
-    disk:
-      name: upload-disk
-      mountPath: /app/uploads
-      sizeGB: 1
 
 databases:
   - name: expenselens-db
     databaseName: expenselens
-    user: postgres
     plan: free
+
