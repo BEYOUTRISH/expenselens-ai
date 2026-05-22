@@ -1,0 +1,39 @@
+﻿# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+python-multipart==0.0.12
+
+# Data processing
+pandas==2.2.0
+numpy==1.26.0
+openpyxl==3.1.5
+xlsxwriter==3.2.0
+pyarrow==17.0.0
+
+# ML / Anomaly detection
+scikit-learn==1.5.0
+prophet==1.1.6
+
+# Text matching
+rapidfuzz==3.9.0
+
+# Database
+sqlalchemy==2.0.35
+psycopg2-binary==2.9.9
+alembic==1.13.0
+
+# AI / LLM
+groq>=0.9.0
+
+# PDF generation
+reportlab==4.2.0
+
+# Utilities
+httpx==0.27.0
+pydantic==2.9.0
+pydantic-settings==2.5.0
+python-dateutil==2.9.0
+chardet==5.2.0
+redis==5.2.0
+celery==5.4.0
+python-dotenv==1.0.1
